@@ -1,0 +1,13 @@
+              LINEAR_SEARCH_ALGORITHM
+
+(Linear Search)  LINEAR (DATA, N, ITEM, LOC)
+Here DATA is a linear array with N elements and ITEM is a given item of information.
+This algorithm finds the location LOC of ITEM in DATA, or sets LOC = 0 if the search is unsuccessful.
+    1. [Insert ITEM at the end of DATA.] Set DATA [N + 1] = ITEM.
+    2. [Initialize counter.] Set LOC = 1.
+    3. [Search for ITEM.]
+         Repeat while DATA [LOC] != ITEM.
+         Set LOC = LOC + 1.
+       [End of loop.]
+    4. [Successful?] If LOC = N + 1, then: Set LOC = 0.
+    5. Exit.
